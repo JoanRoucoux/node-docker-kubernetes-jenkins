@@ -1,0 +1,19 @@
+{
+  "name": "node-docker-kubernetes-jenkins",
+  "version": "1.0.0",
+  "description": "Deploy a Node JS app on Kubernetes using Jenkins and Docker",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "jest"
+  },
+  "author": "Joan Roucoux",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "jest": "^29.3.1",
+    "supertest": "^6.3.3"
+  }
+}
