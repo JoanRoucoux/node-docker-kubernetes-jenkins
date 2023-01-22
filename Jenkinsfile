@@ -6,8 +6,8 @@ pipeline {
   }
 
   environment {
-    DOCKERHUB_REGISTRY = 'joanroucoux/node-web-app',
-      DOCKERHUB_CREDENTIALS_ID = 'dockerhub'
+    DOCKERHUB_REGISTRY = 'joanroucoux/node-web-app'
+    DOCKERHUB_CREDENTIALS_ID = 'dockerhub'
   }
 
   stages {
