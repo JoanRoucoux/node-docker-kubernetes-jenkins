@@ -10,12 +10,12 @@ pipeline {
     DOCKERHUB_CREDENTIALS_ID = 'dockerhub'
   }
 
-  stages {
+  /*stages {
     stage('Install dependencies') {
       steps {
         sh 'npm install'
       }
-    }
+    }*/
 
     stage('Test') {
       steps {
